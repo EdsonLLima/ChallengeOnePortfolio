@@ -4,47 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/resete.css">
+
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/resete.css" />
+    <!-- header css -->
+    <link rel="stylesheet" href="assets/css/top.css" />
+    <link rel="stylesheet" href="assets/css/menu/sec-menu.css" />
+    <link rel="stylesheet" href="assets/css/menu/menu.css" />
+    <link rel="stylesheet" href="assets/css/menu/menu-list.css" />
+    <link rel="stylesheet" href="assets/css/menu/menu-item.css" />
+    <link rel="stylesheet" href="assets/css/menu/menu-link.css" />
+
     <title>Edson Lima - Portfólio</title>
   </head>
   <body>
     <header class="top">
-     <article>
-      <a href="#hero">
-      <img src="" alt="logo-portfólio" />
-     </a>
-      <nav class="menu">
-        <ul>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#hobbie">Hobbies</a></li>
-          <li><a href="#academic">Formação</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#">contato@edsonlima.com</a></li>
-        </ul>
-      </nav>
-     </article  class="hero">
-     <article>
-      <h1>Olá, meu nome é Fulana de Tal e construo páginas web</h1>
-      <p>
-        Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou
-        participando no projeto Oracle ONE na Alura.
-      </p>
+      <section class="sec-menu">
+        <a href="#hero" class="logo">
+          <img src="assets/img/edsonlima-logo.png" alt="logo-portfólio" />
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu_link" href="#about">Sobre</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#skills">Skills</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#hobbie">Hobbies</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#academic">Formação</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#projects">Projetos</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#">contato@edsonlima.com</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- FIM MENU -->
+      <section class="hero">
+        <h1>Olá, meu nome é Fulana de Tal e construo páginas web</h1>
+        <p>
+          Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou
+          participando no projeto Oracle ONE na Alura.
+        </p>
 
-      <ul class="social">
-        <li><a href="">GitHub</a></li>
-        <li><a href="">LinkedIn</a></li>
-        <li><a href="">Instagram</a></li>
-        <li><a href=""></a>Twitter</li>
-        <li><a href="">Currículo</a></li>
-      </ul>
-     </article>
+        <ul class="social">
+          <li><a href="">GitHub</a></li>
+          <li><a href="">LinkedIn</a></li>
+          <li><a href="">Instagram</a></li>
+          <li><a href=""></a>Twitter</li>
+          <li><a href="">Currículo</a></li>
+        </ul>
+      </section>
     </header>
 
     <main>
-      <section  id="about" class="about">
+      <section id="about" class="about">
         <h2>Sobre mim</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
@@ -61,7 +82,7 @@
         </p>
         <img src="" alt="assinatura" />
       </section>
-      <section  class="skills-hobbie">
+      <section class="skills-hobbie">
         <article id="skills">
           <h2>Skills</h2>
           <ul>
