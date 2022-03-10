@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.hero .hero__letf {
+  width: 70%;
+}
+
+.hero .hero__right {
+  width: 30%;
+}
