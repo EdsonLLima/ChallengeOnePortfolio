@@ -5,6 +5,7 @@
 :root {
   /* variaveis das cores de texto */
   --font-gray2: #4f4f4f;
+  --font-gray1: #838383;
 }
 
 html {

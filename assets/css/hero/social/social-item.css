@@ -1,4 +1,17 @@
 .social__item {
   display: flex;
   align-items: center;
+  padding: 0.8em;
+  background: rgba(104, 170, 162);
+  border: none;
+  border-radius: 0.5em;
+  margin-right: 0.5em;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+.social__item:hover {
+  transition: all 0.2s;
+  transform: scale(1.02);
 }
