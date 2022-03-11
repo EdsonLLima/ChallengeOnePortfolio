@@ -1,0 +1,8 @@
+.social__link {
+  text-decoration: none;
+
+  margin-right: 0.4em;
+  color: var(--font-gray2);
+  font-family: 500;
+  font-size: 1.6rem;
+}
