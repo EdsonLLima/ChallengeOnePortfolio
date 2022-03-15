@@ -1,10 +1,11 @@
 .about {
   width: 100%;
   display: flex;
-  background-color: rgb(177, 177, 184);
+  background: #68aaa2;
+  background-size: cover;
 }
 
 .about__content {
   margin: 0 15.2em;
-  padding: 2em 0;
+  padding: 6.4em 0;
 }

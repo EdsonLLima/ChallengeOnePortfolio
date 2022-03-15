@@ -1,13 +1,6 @@
-/* .top {
-  height: 100vh; 
-  margin-bottom: 3.2em;
-  margin: 0 15.2em;
-}*/
-
 .top {
   width: 100%;
   display: flex;
-  /* background-color: rgb(70, 70, 153); */
 }
 
 .top__content {
