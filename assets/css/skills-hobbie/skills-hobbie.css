@@ -1,0 +1,11 @@
+.skills-hobbie {
+  width: 100%;
+  display: flex;
+  background: black;
+}
+
+.skills-hobbie__content {
+  margin: 0 15.2em;
+  padding: 2em 0;
+  background: orange;
+}
