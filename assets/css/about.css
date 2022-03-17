@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   background: #68aaa2;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .about-content {
