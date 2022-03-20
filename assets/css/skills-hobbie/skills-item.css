@@ -22,3 +22,7 @@
   font-size: 1.6rem;
   font-weight: 700;
 }
+
+.skills__item-progress {
+  background: red;
+}
