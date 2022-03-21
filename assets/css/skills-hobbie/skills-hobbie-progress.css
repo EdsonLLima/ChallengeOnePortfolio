@@ -1,0 +1,18 @@
+.skills-hobbie__progress {
+  width: 70%;
+  background-color: #ffffff;
+  border: 0.2em solid #055e52;
+  border-radius: 0.4em;
+  height: 0.8em;
+}
+
+.skills-hobbie__progress::-webkit-progress-value {
+  background-color: #055e52;
+}
+.skills-hobbie__progress::-webkit-progress-bar {
+  background-color: #ffffff;
+}
+
+.skills-hobbie__progress::-moz-progress-bar {
+  background-color: #055e52;
+}
