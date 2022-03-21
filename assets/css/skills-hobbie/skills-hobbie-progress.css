@@ -7,9 +7,11 @@
 }
 
 .skills-hobbie__progress::-webkit-progress-value {
+  /*cor da porcentagem de carregamento*/
   background-color: #055e52;
 }
 .skills-hobbie__progress::-webkit-progress-bar {
+  /*cor do fundo da barra*/
   background-color: #ffffff;
 }
 
