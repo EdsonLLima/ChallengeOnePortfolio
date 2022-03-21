@@ -38,6 +38,10 @@
     <link rel="stylesheet" href="assets/css/skills-hobbie.css" />
     <link
       rel="stylesheet"
+      href="assets/css/skills-hobbie/skills-hobbie-progress.css"
+    />
+    <link
+      rel="stylesheet"
       href="assets/css/skills-hobbie/skills-hobbie-title.css"
     />
     <link rel="stylesheet" href="assets/css/skills-hobbie/skills.css" />
@@ -167,6 +171,14 @@
                   alt="logo NodeJS"
                 />
                 <h3 class="skills__item-title">NodeJS</h3>
+                <progress
+                  id="node-bar"
+                  class="skills-hobbie__progress"
+                  value="10"
+                  max="100"
+                >
+                  10%
+                </progress>
               </li>
               <li class="skills__item skills__item-card">
                 <img
@@ -175,6 +187,14 @@
                   alt="logo react native"
                 />
                 <h3 class="skills__item-title">React Native</h3>
+                <progress
+                  id="react-native-bar"
+                  class="skills-hobbie__progress"
+                  value="10"
+                  max="100"
+                >
+                  10%
+                </progress>
               </li>
               <li class="skills__item skills__item-card">
                 <img
@@ -183,6 +203,14 @@
                   alt="logo reactjs"
                 />
                 <h3 class="skills__item-title">ReactJs</h3>
+                <progress
+                  id="reactjs-bar"
+                  class="skills-hobbie__progress"
+                  value="20"
+                  max="100"
+                >
+                  20%
+                </progress>
               </li>
               <li class="skills__item skills__item-card">
                 <img
@@ -191,6 +219,14 @@
                   alt="logo git"
                 />
                 <h3 class="skills__item-title">Git</h3>
+                <progress
+                  id="git-bar"
+                  class="skills-hobbie__progress"
+                  value="60"
+                  max="100"
+                >
+                  60%
+                </progress>
               </li>
               <li class="skills__item skills__item-card">
                 <img
@@ -199,14 +235,30 @@
                   alt="logo wordpress"
                 />
                 <h3 class="skills__item-title">Wordpress</h3>
+                <progress
+                  id="wordpress-bar"
+                  class="skills-hobbie__progress"
+                  value="85"
+                  max="100"
+                >
+                  85%
+                </progress>
               </li>
               <li class="skills__item skills__item-card">
                 <img
                   class="skills__item-img"
                   src="assets/img/skills/comunicacao.png"
-                  alt="logo comunicacao"
+                  alt="logo de dois balões com um tem três ponto para representar uma convesa, no caso comunicação!"
                 />
                 <h3 class="skills__item-title">Comunicação</h3>
+                <progress
+                  id="comunicacao-bar"
+                  class="skills-hobbie__progress"
+                  value="60"
+                  max="100"
+                >
+                  60%
+                </progress>
               </li>
               <li class="skills__item skills__item-card">
                 <img
@@ -215,6 +267,30 @@
                   alt="logo css"
                 />
                 <h3 class="skills__item-title">CSS</h3>
+                <progress
+                  id="css-bar"
+                  class="skills-hobbie__progress"
+                  value="50"
+                  max="100"
+                >
+                  50%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/bootstrap.png"
+                  alt="logo bootstrap"
+                />
+                <h3 class="skills__item-title">Bootstrap</h3>
+                <progress
+                  id="bootstrap-bar"
+                  class="skills-hobbie__progress"
+                  value="50"
+                  max="100"
+                >
+                  50%
+                </progress>
               </li>
               <li class="skills__item skills__item-card">
                 <img
@@ -223,6 +299,14 @@
                   alt="logo html"
                 />
                 <h3 class="skills__item-title">HTML</h3>
+                <progress
+                  id="html-bar"
+                  class="skills-hobbie__progress"
+                  value="80"
+                  max="100"
+                >
+                  85%
+                </progress>
               </li>
               <li class="skills__item skills__item-card">
                 <img
@@ -231,6 +315,14 @@
                   alt="logo javascript"
                 />
                 <h3 class="skills__item-title">JavaScript</h3>
+                <progress
+                  id="js-bar"
+                  class="skills-hobbie__progress"
+                  value="40"
+                  max="100"
+                >
+                  40%
+                </progress>
               </li>
             </ul>
           </article>
@@ -238,9 +330,27 @@
           <article id="hobbie" class="hobbies">
             <h2 class="skills-hobbie__title">Hobbies</h2>
             <ul class="hobbie__list">
-              <li class="hobbie__item hobbie__item-card">Anime</li>
-              <li class="hobbie__item hobbie__item-card">Ler</li>
-              <li class="hobbie__item hobbie__item-card">Filmes</li>
+              <li class="hobbie__item hobbie__item-card">
+                <img
+                  class="hobbie__item-img"
+                  src="assets/img/skills/otaku.png"
+                />
+                <h3 class="hobbie__item-title">Anime</h3>
+              </li>
+              <li class="hobbie__item hobbie__item-card">
+                <img
+                  class="hobbie__item-img"
+                  src="assets/img/skills/book.png"
+                />
+                <h3 class="hobbie__item-title">Livros e Manga</h3>
+              </li>
+              <li class="hobbie__item hobbie__item-card">
+                <img
+                  class="hobbie__item-img"
+                  src="assets/img/skills/play-button.png"
+                />
+                <h3 class="hobbie__item-title">Filmes e Séries</h3>
+              </li>
             </ul>
           </article>
         </div>
@@ -322,4 +432,9 @@
       <p><span id="currentDate">2021</span></p>
     </footer>
   </body>
+
+  <!-- 
+    o "id.value" do onchange representar o id da tag progress nesse exemplo
+    <input type="range" min="0" max="100" value="0" onchange="id.value=this.value">
+  -->
 </html>
