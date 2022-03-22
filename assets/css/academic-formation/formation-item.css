@@ -3,7 +3,8 @@
 }
 
 .formation__item-card {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: rgba(237, 237, 237, 0.5);
   margin: 0.5em;
   padding: 2em;
   width: 100%;
