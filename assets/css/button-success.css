@@ -1,0 +1,11 @@
+.btn__success {
+  background: #055e52;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn__success:hover {
+  background: #268d7f;
+  transition: 0.3s;
+}
