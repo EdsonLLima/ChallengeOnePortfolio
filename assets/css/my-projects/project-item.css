@@ -1,25 +1,24 @@
 .project__item {
-  margin: 1em 0;
+  margin-bottom: 1em;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .project__item-card {
-  /* background: #ffffff; */
-  background: rgba(104, 170, 162, 0.3);
-  margin: 0.5em;
-  padding: 1em;
-  width: 100%;
+  background: rgba(104, 170, 162, 0.1);
+  padding: 5em 2em;
   text-align: center;
   border: none;
   border-radius: 1%;
 }
 
 .project__item-contet {
-  padding: 1em;
+  padding: 0.8em;
+  word-wrap: break-word;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1140px) {
   .project__item {
     display: block;
   }
