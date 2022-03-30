@@ -94,6 +94,7 @@
       href="assets/css/my-projects/project-item-text.css"
     />
     <link rel="stylesheet" href="assets/css/button.css" />
+    <link rel="stylesheet" href="assets/css/button-padding.css" />
     <link rel="stylesheet" href="assets/css/button-info.css" />
     <link rel="stylesheet" href="assets/css/button-success.css" />
     <!-- footer -->
@@ -111,6 +112,7 @@
     <link rel="stylesheet" href="assets/css/form/form-area.css" />
     <link rel="stylesheet" href="assets/css/form/form-input.css" />
     <link rel="stylesheet" href="assets/css/form/form-label.css" />
+    <link rel="stylesheet" href="assets/css/form/form-button.css" />
 
     <title>Edson Lima - Portfólio</title>
   </head>
@@ -542,15 +544,20 @@
               <input name="name" class="form__input" type="text" />
               <label for="email" class="form__label">E-mail</label>
               <input name="email" class="form__input" type="email" />
-              <label for="assunto" class="form__label">Assunto</label>
-              <input name="assunto" class="form__input" type="text" />
+              <label for="mensagem" class="form__label form__area-label">
+                Assunto
+              </label>
               <textarea
                 class="form__area"
-                name=""
+                name="mensagem"
                 id=""
                 cols="30"
                 rows="10"
+                placeholder="Mensagem"
               ></textarea>
+              <button class="btn btn__success form__button" type="submit">
+                Enviar mensagem
+              </button>
             </form>
           </div>
         </div>
