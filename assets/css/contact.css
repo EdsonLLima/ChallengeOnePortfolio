@@ -1,0 +1,11 @@
+.contact {
+  width: 100%;
+  display: flex;
+  background: #68aaa2;
+  box-shadow: 1px 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.contact-content {
+  margin: 0 15.2em;
+  padding: 2em 0;
+}
