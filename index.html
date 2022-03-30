@@ -103,6 +103,14 @@
     <link rel="stylesheet" href="assets/css/footer/footer-text.css" />
     <!-- section contact -->
     <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-form.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-image.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-title.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-text.css" />
+    <link rel="stylesheet" href="assets/css/form/form.css" />
+    <link rel="stylesheet" href="assets/css/form/form-area.css" />
+    <link rel="stylesheet" href="assets/css/form/form-input.css" />
+    <link rel="stylesheet" href="assets/css/form/form-label.css" />
 
     <title>Edson Lima - Portfólio</title>
   </head>
@@ -516,21 +524,35 @@
       </section>
       <section id="contact" class="contact">
         <div class="contact-content">
-          <h2>Contato</h2>
-          <p>
-            Quer entrar em contato comigo? Preencha o formulário ao lado e
-            entrarei em contato o mais rápido possível.
-          </p>
+          <img
+            class="contact__image"
+            src="assets/img/contato.jpg"
+            alt="mão com a palma aberta para cima com um celular parecendo esta flutuando"
+          />
 
-          <form action="">
-            <label>Nome</label>
-            <input type="text" />
-            <label>E-mail</label>
-            <input type="email" />
-            <label>Assunto</label>
-            <input type="text" />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </form>
+          <div class="contact__form">
+            <h2 class="contact__title">Contato</h2>
+            <p class="contact__text">
+              Quer entrar em contato comigo? Preencha o formulário ao lado e
+              entrarei em contato o mais rápido possível.
+            </p>
+
+            <form class="form" action="">
+              <label for="name" class="form__label">Nome</label>
+              <input name="name" class="form__input" type="text" />
+              <label for="email" class="form__label">E-mail</label>
+              <input name="email" class="form__input" type="email" />
+              <label for="assunto" class="form__label">Assunto</label>
+              <input name="assunto" class="form__input" type="text" />
+              <textarea
+                class="form__area"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </form>
+          </div>
         </div>
       </section>
     </main>
