@@ -1,4 +1,6 @@
 .contact__form {
+  display: flex;
+  flex-direction: column;
   background: rgba(237, 237, 237, 0.5);
   margin: 1em;
   margin-right: 0;
