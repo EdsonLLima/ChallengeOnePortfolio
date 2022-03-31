@@ -540,17 +540,30 @@
             </p>
 
             <form class="form" action="" name="form">
-              <label for="name" class="form__label">Nome</label>
-              <input name="name" class="form__input" type="text" />
-              <label for="email" class="form__label">E-mail</label>
-              <input name="email" class="form__input" type="email" />
-              <label for="mensagem" class="form__label form__area-label">
-                Assunto
-              </label>
+              <!-- <label for="name" class="form__label">Nome</label> -->
+              <input
+                name="name"
+                class="form__input"
+                type="text"
+                placeholder="Nome"
+              />
+              <!-- <label for="email" class="form__label" >E-mail</label> -->
+              <input
+                name="email"
+                class="form__input"
+                type="email"
+                placeholder="E-mail"
+              />
+              <input
+                name="msg"
+                class="form__input"
+                type="text"
+                placeholder="Assunto"
+              />
               <textarea
                 class="form__area"
-                name="mensagem"
-                id="mensagem"
+                name="msg"
+                id="msg"
                 cols="30"
                 rows="10"
                 placeholder="Mensagem"

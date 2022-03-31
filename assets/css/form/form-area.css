@@ -1,5 +1,5 @@
 .form__area {
-  width: 40vw;
+  width: 95%;
   color: #464646;
   background: #ffffff;
   font-size: 1.6em;
@@ -7,7 +7,6 @@
   border: none;
   border-radius: 0.4em;
 
-  margin-top: 2em;
   margin-bottom: 1em;
   padding: 0.8em;
 }
