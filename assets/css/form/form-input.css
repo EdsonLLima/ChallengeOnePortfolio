@@ -1,0 +1,12 @@
+.form__input {
+  width: 40vw;
+  color: #464646;
+  background: #ffffff;
+  font-size: 1.6em;
+
+  border: none;
+  border-radius: 0 0 0.4em 0.4em;
+
+  margin-bottom: 2em;
+  padding: 0.8em;
+}

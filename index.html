@@ -94,6 +94,7 @@
       href="assets/css/my-projects/project-item-text.css"
     />
     <link rel="stylesheet" href="assets/css/button.css" />
+    <link rel="stylesheet" href="assets/css/button-padding.css" />
     <link rel="stylesheet" href="assets/css/button-info.css" />
     <link rel="stylesheet" href="assets/css/button-success.css" />
     <!-- footer -->
@@ -101,6 +102,17 @@
     <link rel="stylesheet" href="assets/css/footer/footer-title.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-link.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-text.css" />
+    <!-- section contact -->
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-form.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-image.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-title.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-text.css" />
+    <link rel="stylesheet" href="assets/css/form/form.css" />
+    <link rel="stylesheet" href="assets/css/form/form-area.css" />
+    <link rel="stylesheet" href="assets/css/form/form-input.css" />
+    <link rel="stylesheet" href="assets/css/form/form-label.css" />
+    <link rel="stylesheet" href="assets/css/form/form-button.css" />
 
     <title>Edson Lima - Portfólio</title>
   </head>
@@ -513,21 +525,42 @@
         </div>
       </section>
       <section id="contact" class="contact">
-        <h2>Contato</h2>
-        <p>
-          Quer entrar em contato comigo? Preencha o formulário ao lado e
-          entrarei em contato o mais rápido possível.
-        </p>
+        <div class="contact-content">
+          <img
+            class="contact__image"
+            src="assets/img/contato.jpg"
+            alt="mão com a palma aberta para cima com um celular parecendo esta flutuando"
+          />
 
-        <form action="">
-          <label>Nome</label>
-          <input type="text" />
-          <label>E-mail</label>
-          <input type="email" />
-          <label>Assunto</label>
-          <input type="text" />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
+          <div class="contact__form">
+            <h2 class="contact__title">Contato</h2>
+            <p class="contact__text">
+              Quer entrar em contato comigo? Preencha o formulário ao lado e
+              entrarei em contato o mais rápido possível.
+            </p>
+
+            <form class="form" action="" name="form">
+              <label for="name" class="form__label">Nome</label>
+              <input name="name" class="form__input" type="text" />
+              <label for="email" class="form__label">E-mail</label>
+              <input name="email" class="form__input" type="email" />
+              <label for="mensagem" class="form__label form__area-label">
+                Assunto
+              </label>
+              <textarea
+                class="form__area"
+                name="mensagem"
+                id="mensagem"
+                cols="30"
+                rows="10"
+                placeholder="Mensagem"
+              ></textarea>
+              <button class="btn btn__success form__button" type="submit">
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
