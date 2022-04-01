@@ -14,3 +14,19 @@
 .hero .hero__right {
   width: 70%;
 }
+
+@media (max-width: 1070px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero .hero__letf {
+    width: 30%;
+    margin-bottom: 1em;
+  }
+
+  .hero .hero__right {
+    width: 100%;
+    text-align: left;
+  }
+}

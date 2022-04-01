@@ -5,3 +5,16 @@
   color: var(--font-gray2);
   line-height: 1.2em;
 }
+
+@media (max-width: 1070px) {
+  .hero__title {
+    text-align: center;
+    padding: 0 0.2em;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero__title {
+    font-size: 2.7rem;
+  }
+}
