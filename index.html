@@ -555,13 +555,16 @@
               entrarei em contato o mais rápido possível.
             </p>
 
-            <form class="form" action="" name="form">
+            <form class="form" action="form_enviado.html" name="form">
               <!-- <label for="name" class="form__label">Nome</label> -->
               <input
                 name="name"
                 class="form__input"
                 type="text"
                 placeholder="Nome"
+                required
+                minlength="5"
+                maxlength="50"
               />
               <!-- <label for="email" class="form__label" >E-mail</label> -->
               <input
@@ -569,12 +572,15 @@
                 class="form__input"
                 type="email"
                 placeholder="E-mail"
+                required
               />
               <input
                 name="msg"
                 class="form__input"
                 type="text"
                 placeholder="Assunto"
+                required
+                maxlength="50"
               />
               <textarea
                 class="form__area"
@@ -583,6 +589,8 @@
                 cols="30"
                 rows="10"
                 placeholder="Mensagem"
+                required
+                maxlength="300"
               ></textarea>
               <button class="btn btn__success form__button" type="submit">
                 Enviar mensagem
