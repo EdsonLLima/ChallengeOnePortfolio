@@ -16,7 +16,7 @@
 ---
 
 <p align="left">
-	<img alt="App Codificador de texto" src="/src/img/app-print.png" widht="80%">
+	<img alt="App Portfolio" src="layout.png" widht="80%">
 </p>
 
 ## Meu projeto
