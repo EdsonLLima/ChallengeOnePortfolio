@@ -1,3 +1,7 @@
+//Button Enviar desabilitado
+btnEnviar = document.getElementById("btnEnviar");
+btnEnviar.disabled = true;
+
 const inputName = document.querySelector("#inputName");
 const inputEmail = document.querySelector("#inputEmail");
 const inputSubject = document.querySelector("#inputSubject");
@@ -57,5 +61,21 @@ inputMsg.addEventListener("blur", () => {
   } else {
     inputMsg.parentElement.classList.remove("input-container--invalido");
     inputMsg.parentElement.querySelector(".input-mensagem-erro").innerHTML = "";
+  }
+});
+
+//cria um event listener que escuta mudanças no input
+const inputAll = document.querySelector(".input");
+inputAll.addEventListener("input", () => {
+  //busca conteúdo do input
+  let getContent = inputAll.value;
+
+  //valida conteudo do input
+  if (getContent !== null && getContent !== "") {
+    //habilita o botão
+    btnEnviar.disabled = false;
+  } else {
+    //desabilita o botão se o conteúdo do input ficar em branco
+    btnEnviar.disabled = true;
   }
 });
