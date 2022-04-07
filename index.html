@@ -563,6 +563,7 @@
                 >
                 <input
                   name="name"
+                  id="inputName"
                   class="form__input input"
                   type="text"
                   placeholder="Nome"
@@ -580,6 +581,7 @@
                 >
                 <input
                   name="email"
+                  id="inputEmail"
                   class="form__input input"
                   type="email"
                   placeholder="E-mail"
@@ -594,6 +596,7 @@
                 >
                 <input
                   name="msg"
+                  id="inputSubject"
                   class="form__input input"
                   type="text"
                   placeholder="Assunto"
@@ -604,10 +607,13 @@
               </div>
 
               <div class="input-container">
+                <span class="input-mensagem-erro"
+                  >Este campo não está válido.</span
+                >
                 <textarea
                   class="form__area"
                   name="msg"
-                  id="msg"
+                  id="inputMsg"
                   cols="30"
                   rows="10"
                   placeholder="Mensagem"
@@ -638,7 +644,6 @@
         <p class="footer__text">Projeto ONE Oracle + Alura - 2021/2022</p>
       </div>
     </footer>
-
-    <script src="/assets/js/app.js" type="module"></script>
+    <script src="/assets/js/validation.js"></script>
   </body>
 </html>
